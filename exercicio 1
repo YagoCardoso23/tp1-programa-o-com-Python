@@ -1,0 +1,28 @@
+def main():
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+ 
+soma = num1 + num2
+print("Soma:", soma)
+
+    
+subtracao = num1 - num2
+print("Subtração:", subtracao)
+
+multiplicacao = num1 * num2
+print("Multiplicação:", multiplicacao)
+
+   
+if num2 != 0:
+ divisao = num1 / num2
+ print("Divisão:", divisao)
+        
+ divisao_inteira = num1 // num2
+ print("Divisão Inteira:", divisao_inteira)
+else:
+ print("Não é possível dividir por zero.")
+
+if __name__ == "__main__":
+    main()
+
+    
